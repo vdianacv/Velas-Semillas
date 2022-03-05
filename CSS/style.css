@@ -1,0 +1,35 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px auto 100px;
+      grid-template-columns: 100px auto 100px;
+  -ms-grid-rows: (100px)[6];
+      grid-template-rows: repeat(6, 100px);
+  grid-gap: 1rem;
+}
+
+.container .grid-header {
+  grid-area: gridheader;
+  background-color: aqua;
+}
+
+.container .grid-nav {
+  grid-area: gridnav;
+  background-color: aquamarine;
+}
+
+.container .grid-main {
+  grid-area: gridmain;
+  background-color: blueviolet;
+}
+
+.container .grid-aside {
+  grid-area: gridaside;
+  background-color: palegreen;
+}
+
+.container .grid-footer {
+  grid-area: gridfooter;
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
