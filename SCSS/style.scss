@@ -3,7 +3,6 @@
 }
 
 body{
-  background-color: aqua;
   margin: 0;
   padding: 0.5rem;
   display: grid;
@@ -23,8 +22,6 @@ body{
   main,
   aside,
   footer{
-    background-color: black;
-    color: white;
     padding: 1rem;
   }
   h1{
@@ -46,6 +43,12 @@ body{
     grid-area: footer;
   }
 }
+
+//f09a // Facebook
+//f232 //wpp
+//f0e0 //mail
+//f16d //instagram
+
 
 //  @media (min-width: 768px) {
 //    body{

@@ -1,69 +1,41 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: aqua;
   margin: 0;
   padding: 0.5rem;
-  display: -ms-grid;
   display: grid;
   grid-gap: 10px;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  grid-template-rows: auto;
   min-height: 100vh;
-  -ms-grid-columns: 15% auto 25%;
-      grid-template-columns: 15% auto 25%;
-      grid-template-areas: "nav header header" "nav main aside" "nav main aside" "nav main aside" "footer footer footer";
+  grid-template-columns: 15% auto 25%;
+  grid-template-areas: "nav header header" "nav main aside" "nav main aside" "nav main aside" "footer footer footer";
 }
-
 body header,
 body nav,
 body main,
 body aside,
 body footer {
-  background-color: black;
-  color: white;
   padding: 1rem;
 }
-
 body h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
-
 body header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
   grid-area: header;
 }
-
 body nav {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 1;
   grid-area: nav;
 }
-
 body main {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 2;
   grid-area: main;
 }
-
 body aside {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 3;
   grid-area: aside;
 }
-
 body footer {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-area: footer;
 }
+
 /*# sourceMappingURL=style.css.map */
