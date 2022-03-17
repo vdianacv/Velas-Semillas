@@ -1,3 +1,4 @@
+@import 'fuentes';
 * {
   box-sizing: border-box ;
 }
@@ -24,11 +25,17 @@ body{
   footer{
     padding: 1rem;
   }
-  h1{
-    font-family: 'Courier New', Courier, monospace;
-  }
+  
   header{
     grid-area: header;
+
+    h1{
+      font-family: 'Dancing Script', cursive;
+      font-size: 60px;
+      text-align: center;
+      position: absolute;
+      letter-spacing: 10px;
+    }
   }
   nav{
     grid-area: nav;
@@ -42,12 +49,9 @@ body{
   footer{
     grid-area: footer;
   }
+
 }
 
-//f09a // Facebook
-//f232 //wpp
-//f0e0 //mail
-//f16d //instagram
 
 
 //  @media (min-width: 768px) {
