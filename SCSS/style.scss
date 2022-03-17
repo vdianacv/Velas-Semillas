@@ -48,6 +48,29 @@ body{
   }
   footer{
     grid-area: footer;
+
+    .social-bar{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      .bi{
+        list-style: none;
+        width: 50px;
+        height: 50px;
+        margin: 0 15px;
+        transition: all 0.5s;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    
+
   }
 
 }

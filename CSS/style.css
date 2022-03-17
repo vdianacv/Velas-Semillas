@@ -15,7 +15,11 @@ body {
   min-height: 100vh;
   -ms-grid-columns: 15% auto 25%;
       grid-template-columns: 15% auto 25%;
-      grid-template-areas: "nav header header" "nav main aside" "nav main aside" "nav main aside" "footer footer footer";
+      grid-template-areas: "nav header header"
+ "nav main aside"
+ "nav main aside"
+ "nav main aside"
+ "footer footer footer";
 }
 
 body header,
@@ -67,5 +71,38 @@ body footer {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: footer;
+}
+
+body footer .social-bar {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .social-bar .bi {
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  margin: 0 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
