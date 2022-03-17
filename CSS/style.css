@@ -15,11 +15,7 @@ body {
   min-height: 100vh;
   -ms-grid-columns: 15% auto 25%;
       grid-template-columns: 15% auto 25%;
-      grid-template-areas: "nav header header"
- "nav main aside"
- "nav main aside"
- "nav main aside"
- "footer footer footer";
+      grid-template-areas: "nav header header" "nav main aside" "nav main aside" "nav main aside" "footer footer footer";
 }
 
 body header,
@@ -89,9 +85,9 @@ body footer .social-bar {
 
 body footer .social-bar .bi {
   list-style: none;
-  width: 50px;
-  height: 50px;
-  margin: 0 15px;
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   position: relative;
