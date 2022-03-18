@@ -1,13 +1,14 @@
-@use 'fuentes';
-@use 'productos';
-@use 'contacto';
+@import 'fuentes';
+@import 'productos';
+@import 'contacto';
+@import 'custom';
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box ;
 }
 
 body{
-  margin: 0;
-  padding: 0.5rem;
   display: grid;
   grid-gap: 10px;
   grid-template-rows: auto;
@@ -32,7 +33,7 @@ body{
     grid-area: header;
 
     h1{
-      font-family: 'Dancing Script'; 
+      font-family: 'Dancing Script', cursive; 
       font-size: 60px;
       text-align: center;
       letter-spacing: 10px;
@@ -60,8 +61,6 @@ body{
       background-color: #555;
       color: white;
     }
-
-
   }
   
   main{
