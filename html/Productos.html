@@ -15,137 +15,125 @@
 		<header>
 				<h1 class="title">Velas Semillas</h1>
 		</header>
-		<nav>
-			<lu>
-				<li><a href="/Index.html"><i class="bi bi-house-door"></i>Inicio</a></li>
-				<li><a href="/html/Productos.html"><i class="bi bi-basket"></i>Productos</a></li>
-				<li><a href="/html/Quienesomos.html"><i class="bi bi-lightbulb"></i>Quienes Somos</a></li>
-				<li><a href="/html/contacto.html"><i class="bi bi-chat-heart"></i>Contacto</a></li>
-				<li><a href="#" class="bi bi-cart3"></a></li>
-			</lu>
+		<nav class="navbar navbar-light bg-light fixed-top">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" bata-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="#offcanvasNavbar"><span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="/Index.html"><i class="bi bi-house-door"></i>Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/html/Productos.html"><i class="bi bi-basket"></i>Productos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/html/Quienesomos.html"><i class="bi bi-lightbulb"></i>Quienes Somos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/html/contacto.html"><i class="bi bi-chat-heart"></i>Contacto</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" class="bi bi-cart3"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 		<main>
 			<section>
-				<h2>Aromatizante</h2>
-				<div class="card">
-					<div class="card-content">
-						<h2 class="card-content__title">
-							Lorem, ipsum.
-						</h2>
-						<p class="card-content__body">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, nam et?
-						</p>
-							<h6 class="size">60 ml</h6>
-							<h6 class="price">$10.000</h6>
-							<p class="card-text"><small class="text-muted">Aromas disponibles: Kiwi, Chocolate. Cookies and cream, mandarina</small></p>
-							<a href="#" class="button">Comprar</a>
-					</div>
-					
-					<div class="card">
-						<img src="/Imagenes/aromasheets.JPG" class="card-img-top" alt="Aroma Sheets" style="width: 100%;">
-						<div class="card-body">
-							<h5 class="card-title">Aroma Sheets</h5>
-							<p class="price">$7.000</p>
-							<p class="card-text">Ambientadores en lámina hechos de cera vegetal para decorar y ambientar espacios como closet, cajones, baños, todos esos lugares pequeños que siempre deseas tengan una roma delicioso</p>
-							<p class="card-text"><small class="text-muted">Aromas disponibles: Kiwi, Chocolate. Cookies and cream, mandarina</small></p>
-							<p><button>Añadir al carrito</button></p>
-						</div>
-					</div>
-					<div class="card">
-						<img src="../Imagenes/Aromatizante.jpeg" class="card-img-top" alt="Aromatizante" style="width: 100%;">
-						<div class="card-body">
-							<h5 class="card-title">Ambientadores</h5>
-							<p class="size">60 ml</p>
-							<p class="price">$10.000</p>
-							<p class="card-text">Nuestros ambientadores son ideales para ambientar telas, habitaciones, baños y todos esos espacios especiales para ti </p>
-							<p class="card-text"><small class="text-muted">Aromas disponibles: Kiwi, Chocolate. Cookies and cream, mandarina</small></p>
-							<p><button>Añadir al carrito</button></p>
-						</div>
-					</div>	
-				</div>
-				
-				
 				<h2>Velas</h2>
-				<div class="row">
-					<div class="col-sm-6">
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
 						<div class="card">
-							<img src="../Imagenes/versa.JPG" alt="Versa" style="width: 100%">
+							<img src="/Imagenes/versa.JPG" class="img-thumbnail" alt="Versa">
 							<div class="card-body">
-								<h5 class="card-title">Versa</h5>
-								<p class="size">190 Gramos</p>
-								<p class="price">$21.000 + Envío</p>
+								<h5 class="card-title">Versa.</h5>
+								<p class="text-muted">190 Gramos</p>
 								<p class="card-text">Ideal para espacios grandes como salas, presentación disponible hasta agotar existencias.</p>
-								<a href="#" class="btn btn-primary">Añadir al carrito</a>
+								<small class="text-muted">Precio: $23.000 + Envío.</small>
+								<button>Añadir al carrito</button>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col">
 						<div class="card">
-							<img src="../Imagenes/versa.JPG" alt="Versa" style="width: 100%">
+							<img src="/Imagenes/compotero.JPG" class="img-thumbnail" alt="">
 							<div class="card-body">
-								<h5 class="card-title">Versa</h5>
-								<p class="size">190 Gramos</p>
-								<p class="price">$21.000 + Envío</p>
-								<p class="card-text">Ideal para espacios grandes como salas, presentación disponible hasta agotar existencias.</p>
-								<a href="#" class="btn btn-primary">Añadir al carrito</a>
+								<h5 class="card-title">Compotero.</h5>
+								<p class="text-muted">160 Gramos</p>
+								<p class="card-text">Ideal para espacios medianos como habitaciones.</p>
+								<small class="text-muted">Precio: $19.000 + Envío</small>
+								<button>Añadir al carrito</button>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col">
 						<div class="card">
-							<img src="../Imagenes/versa.JPG" alt="Versa" style="width: 100%">
+							<img src="/Imagenes/wiskero.jpg" class="img-thumbnail" alt="">
 							<div class="card-body">
-								<h5 class="card-title">Versa</h5>
-								<p class="size">190 Gramos</p>
-								<p class="price">$21.000 + Envío</p>
-								<p class="card-text">Ideal para espacios grandes como salas, presentación disponible hasta agotar existencias.</p>
-								<a href="#" class="btn btn-primary">Añadir al carrito</a>
+								<h5 class="card-title">Wiskeros.</h5>
+								<p class="text-muted">230 Gramos</p>
+								<p class="card-text">Ideal para espacios medianos como habitaciones, oficinas.</p>
+								<small class="text-muted">Precio: $30.000 + Envío</small>
+								<button>Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img src="/Imagenes/compoterogrande.jpg" class="img-thumbnail" alt="">
+							<div class="card-body">
+								<h5 class="card-title">Compotero Grande.</h5>
+								<p class="text-muted">320 Gramos</p>
+								<p class="card-text">Ideal para espacios amplios como habitaciones, oficinas, salas.</p>
+								<small class="text-muted">Precio: $35.000 + Envío</small>
+								<button>Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img src="/Imagenes/personal.JPG" class="img-thumbnail" alt="">
+							<div class="card-body">
+								<h5 class="card-title">Personalizada.</h5>
+								<p class="text-muted">Elige la vela en la que quieras poner un mensaje.</p>
+								<p class="card-text">Podemos personalizar tu vela con un mensaje el cual se vera solo al encender la vela, este mensaje tiene un costo adicional.</p>
+								<small class="text-muted">Precio: Precio vela elegida + $2000</small>
+								<button>Añadir al carrito</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="card">
-					<img src="../Imagenes/versa.JPG" alt="Versa" style="width: 100%">
-					<h2>Versa</h2>
-					<p class="size">190 Gramos</p>
-					<p class="price">$21.000 + Envío</p>
-					<p>Ideal para espacios grandes como salas, presentación disponible hasta agotar existencias.</p>
-					<p><button>Añadir al carrito</button></p>
-				</div>
-				<div class="card">
-					<img src="../Imagenes/compotero.JPG" alt="Compotera" style="width: 100%">
-					<h2>Compotero</h2>
-					<p class="size">160 Gramos</p>
-					<p class="price">$17.000 + Envío</p>
-					<p>Ideal para es pacios medianos como habitaciones.</p>
-					<p><button>Añadir al carrito</button></p>
-				</div>
-				<div class="card">
-					<img src="../Imagenes/cuadrado.JPG" alt="Cuadrado" style="width: 100%">
-					<h2>Cuadrado</h2>
-					<p class="size">170 Gramos</p>
-					<p class="price">$19.000 + Envío</p>
-					<p>Ideal para es pacios medianos como habitaciones.</p>
-					<p><button>Añadir al carrito</button></p>
-				</div>
-				<div class="card">
-					<img src="../Imagenes/lata.JPG" alt="Lata" style="width: 100%">
-					<h2>Lata</h2>
-					<p class="size">130 Gramos</p>
-					<p class="price">$16.000 + Envío</p>
-					<p>Ideal para es pacios medianos como habitaciones, oficinas.</p>
-					<p><button>Añadir al carrito</button></p>
-				</div>
-				<div class="card">
-					<img src="../Imagenes/personal.JPG" alt="Personalizada" style="width: 100%">
-					<h2>Personalizada</h2>
-					<p class="size">Vela Elegida</p>
-					<p class="price">Valor de la Vela elegida + $2000</p>
-					<p>Podemos personalizar tu vela con un mensaje el cual ser verá solo al encender la vela, este mensaje tiene un costo adicional.</p>
-					<p><button>Añadir al carrito</button></p>
-				</div>
-				
 			</section>
+			<section>
+				<h2>Ambientadores</h2>
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card">
+							<img src="/Imagenes/ambientadorspray.JPG" class="img-thumbnail" alt="Ambientador Spray">
+							<div class="card-body">
+								<h5 class="card-title">Ambientador.</h5>
+								<p class="card-text">Nuestros ambientadores contienen 60 ml de aroma ideal para ambientar telas, cuadros, baños y todos esos espacios especuales para ti.</p>
+								<small class="text-muted">Precio: $10.000</small>
+								<button>Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img src="/Imagenes/aromashets.JPG" class="img-thumbnail" alt="Aromashets">
+							<div class="card-body">
+								<h5 class="card-title">Aromashets.</h5>
+								<p class="card-text">Ambientadores en lámina hechos de cera vegetal, para decorar y ambientar espacios como closet, cajones, baños, todos esos lugares pequeños que siempre deseas que tengan un aroma delicioso.</p>
+								<small class="text-muted">Precio: $7.000</small>
+								<button>Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</main>
 		<footer>
 			<div class="social-bar">
@@ -155,10 +143,7 @@
         <a href="https://api.whatsapp.com/send?phone=573126107838" type="button" class="bi bi-whatsapp" target="_blank"></a>
         <a href="https://www.facebook.com/velasemillas" class="bi bi-facebook" target="_blank"></a>
     </div>
-			<p>Autor: Diana Valencia
-				<a href="" type="button" class="bi bi-envelope-fill" target="_blank"></a>
-			</p>
-		</footer>	
+		</footer>
   <script src="js/bootstrap.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>

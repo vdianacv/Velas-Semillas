@@ -2,83 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600");
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 100vh;
-  line-height: 1.6;
-  font-family: sans-serif;
-  color: white;
-  padding: 10rem 0 0;
-  max-width: 280px;
-  border-radius: 1rem;
-  overflow: hidden;
-  -webkit-transition: -webkit-transform 500ms ease;
-  transition: -webkit-transform 500ms ease;
-  transition: transform 500ms ease;
-  transition: transform 500ms ease, -webkit-transform 500ms ease;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card :hover, .card :focus-within {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.card .card-content {
-  padding: 1.5rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.5)));
-  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
-  -webkit-transform: translateY(65%);
-          transform: translateY(65%);
-  -webkit-transition: -webkit-transform 500ms ease;
-  transition: -webkit-transform 500ms ease;
-  transition: transform 500ms ease;
-  transition: transform 500ms ease, -webkit-transform 500ms ease;
-}
-
-.card :hover, .card .card-content {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition-delay: 500ms;
-          transition-delay: 500ms;
-}
-
-.card .card-content__title {
-  text-decoration: underline;
-  -webkit-text-decoration-color: lightgray;
-          text-decoration-color: lightgray;
-}
-
-.card .card-content__body {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.card .button {
-  cursor: pointer;
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  padding: 0.2rem 1rem;
-  border-radius: 0.25rem;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.card .button :hover, .card .button :focus {
-  background-color: white;
-  color: black;
-}
-
 .form-style {
   font: 95% Arial, Helvetica, sans-serif;
   max-width: 400px;
@@ -5275,6 +5198,7 @@ fieldset:disabled .btn {
       -ms-flex-direction: column;
           flex-direction: column;
   min-width: 0;
+  height: 100%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
