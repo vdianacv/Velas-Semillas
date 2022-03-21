@@ -11,12 +11,12 @@ $card-cap-padding-y:                $card-spacer-y * .5;
 $card-cap-padding-x:                $card-spacer-x;
 $card-cap-bg:                       rgba($black, .03);
 $card-cap-color:                    null;
-$card-height:                       null;
+$card-height: 100%                  null;
 $card-color:                        null;
 $card-bg:                           $white;
 $card-img-overlay-padding:          $spacer;
 $card-group-margin:                 $grid-gutter-width * .5;
 
-$card-height: 100%;
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
