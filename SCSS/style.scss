@@ -44,7 +44,6 @@ body{
     width: 160px;
     align-items: center;
     margin: 1%;
-    background-color: #f1f1f1;
     font-family: 'Playfair Display';
     padding-top: 16px;
     list-style: none;
@@ -58,7 +57,7 @@ body{
     
     }
     a:hover{
-      background-color: #555;
+      background-color: rgb(203, 236, 241);
       color: white;
     }
   }
