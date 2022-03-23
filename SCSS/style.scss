@@ -4,7 +4,7 @@
 @import 'custom';
 * {
   margin: 0;
-  padding: 0;
+  padding: 0.5%;
   box-sizing: border-box ;
 }
 
@@ -101,6 +101,10 @@ body{
 
 }
 
+@include breakpoint (400px){
+
+  
+}
 
 @media screen and (max-width: 700px) {
   nav{
