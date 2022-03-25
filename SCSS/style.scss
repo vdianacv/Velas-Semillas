@@ -1,25 +1,26 @@
 @import 'fuentes';
 @import 'productos';
 @import 'contacto';
+@import 'base';
+@import 'breakpoints';
 @import 'custom';
 * {
   margin: 0;
-  padding: 0.5%;
+  padding: 0;
   box-sizing: border-box ;
 }
 
 body{
   display: grid;
   grid-gap: 10px;
-  grid-template-rows: auto;
+  grid-template-rows: 0.2fr 1fr 1fr 0.8fr;
   min-height: 100vh;
-  grid-template-columns: 15% auto 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-  "nav header header"
-  "nav main aside"
-  "nav main aside"
-  "nav main aside"
-  "footer footer footer";
+  "header header header header"
+  "nav main main aside"
+  "nav main main aside"
+  "footer footer footer footer";
 
   header,
   nav,
@@ -64,8 +65,8 @@ body{
   
   main{
     grid-area: main;
-    margin-left: 110px;
-    padding: 0px 1px;
+    margin-left: 0px;
+    padding: 0px 0px;
   }
   aside{
     grid-area: aside;
@@ -101,8 +102,21 @@ body{
 
 }
 
+@media only screen and (max-width: 700px) {
+  body{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 2.2fr 1fr; 
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+  }
+  
+}
 
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   nav{
     width: 100%;
     height: auto;

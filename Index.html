@@ -19,15 +19,28 @@
   <header>
     <h1>Velas Semillas</h1>
   </header>
-  <nav class="nav flex-column">
-    <div class="container-fluid">
-      <lu class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/Index.html"><i class="bi bi-house-door"></i>Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="/html/Productos.html"><i class="bi bi-basket"></i>Productos</a></li>
-        <li class="nav-item"><a class="nav-link" href="/html/Quienesomos.html"><i class="bi bi-lightbulb"></i>Quienes Somos</a></li>
-        <li class="nav-item"><a class="nav-link" href="/html/contacto.html"><i class="bi bi-chat-heart"></i>Contacto</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" class="bi bi-cart3"></a></li>
-      </lu>
+  <nav class="container d-flex flex-column flex-md-row">
+    <div class="navbar navbar-expand-md navbar-light d-flex flex-md-column">
+      <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+      >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collpase navbar-collapse w-100" id="navbarSupportedContent">
+          <lu class="navbar-nav w-100 d-flex flex-md-column text-center text-md-end">
+              <li><a href="/Index.html" class="nav-link"><i class="bi bi-house-door"></i>Inicio</a></li>
+              <li><a href="/html/Productos.html" class="nav-link"><i class="bi bi-basket"></i>Productos</a></li>
+              <li><a href="/html/Quienesomos.html" class="nav-link" aria-current="page"><i class="bi bi-lightbulb"></i>Quienes Somos</a></li>
+              <li><a href="/html/contacto.html" class="nav-link"><i class="bi bi-chat-heart"></i>Contacto</a></li>
+              <li><a href="#" class="nav-link"><i class="bi bi-cart3"></i></a></li>
+          </lu>
+      </div>
     </div>
   </nav>
   <main>
@@ -49,9 +62,7 @@
       </div>
     </div>
   </footer>
-  <script src="js/bootstrap.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-  <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
