@@ -2,7 +2,6 @@
 @import 'productos';
 @import 'contacto';
 @import 'base';
-@import 'breakpoints';
 @import 'custom';
 * {
   margin: 0;
@@ -105,7 +104,7 @@ body{
 @media only screen and (max-width: 700px) {
   body{
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 0.4fr 2.2fr 2.2fr 1fr; 
+    grid-template-rows: 0.3fr 0.4fr 2.2fr 2.2fr 1fr; 
     grid-template-areas: 
     "header"
     "nav"
@@ -116,24 +115,24 @@ body{
   
 }
 
-@media only screen and (max-width: 700px) {
-  nav{
-    width: 100%;
-    height: auto;
-    position: relative;
+// @media only screen and (max-width: 700px) {
+//   nav{
+//     width: 100%;
+//     height: auto;
+//     position: relative;
 
-    a{float: left;}
-  }
+//     a{float: left;}
+//   }
 
   
-}
+// }
 
-@media screen and(max-width: 400px) {
-  nav a{
-    text-align: center;
-    float: none;
-  }
-}
+// @media screen and(max-width: 400px) {
+//   nav a{
+//     text-align: center;
+//     float: none;
+//   }
+// }
 
 
 
